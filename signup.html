@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-2 pb-2">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Responsive image" height="40px">
+                </a>
+                <p class="float-right">
+                    <a class="float-right" href="index.html"  style="color: #0DB14B">
+                    <i class="fa fa-home" style="font-size: 25px;" aria-hidden="true"></i></a>
+                </p>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 sidepic" style="background-color: #0DB14B;">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 sidepic">
+                <div class="d-flex justify-content-center border border-light p-5 mt-5">
+                    <img src="signin/2.png" class="img-fluid" alt="">              
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 signinpage2 ">
+                    <div class="login-form">
+                    <div class="main-div2">
+                        <div class="panel2 pt-2">
+                            <p><a href="signin.html" style="float: right; text-decoration: none; font-weight: bold; font-size: 16px;">
+                                <i class="fa fa-arrow-circle-o-left fa-lg" aria-hidden="true"></i></a></p>
+                       <h4>Sign Up</h4>
+                       <p>Have an account ? 
+                           <a href="signin.html">&nbsp;Log In</a>
+                        </p>
+                       </div>
+                       <form class="row g-3 needs-validation">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                             </div>
+                            <input name="" class="form-control" placeholder="Full name" type="text">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                             </div>
+                            <input name="" class="form-control" placeholder="Username" type="text" required>
+                        </div>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-registered" aria-hidden="true"></i></span>
+                             </div>
+                             <input type="text" id="reg" name="reg"  class="form-control" placeholder="Registration No" required>
+                        </div>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-id-card" aria-hidden="true"></i></span>
+                             </div>
+                                <input class="form-control" placeholder= "XXXXX-XXXXXXX-X" type="text" name="NIC">
+                            </div>
+                            <span id="message1"></span>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                             </div>
+                            <input name="" class="form-control" placeholder="@kfueit.edu.pk" type="email" required>
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                            </div>
+                            <select class="custom-select" style="max-width: 120px;">
+                                <option value="" disabled selected>+83</option>
+                                <option value="1">+92</option>
+                                <option value="2">+198</option>
+                                <option value="3">+201</option>
+                                <option value="3">+391</option>
+                                <option value="3">+344</option>
+                                <option value="3">+701</option>
+                            </select>
+                            <input type="tel" id="phone" name="phone"  class="form-control" placeholder="Phone number">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                            </div>
+                            <select class="form-control" id="validationCustom07" required>
+                                <option value="" disabled selected>Select your Department</option>
+                                <option>Department of Engineering</option>
+                                <option>Department of Agriculture</option>
+                                <option >Accounting Office</option>
+                                <option >Tresurer's Office</option>
+                                <option >MPDC</option>
+                                <option >MCTC</option>
+                                <option >MCR</option>
+                                <option >Mayor's Office</option>
+                                <option >Tourism Office</option>
+                            </select>
+                        </div> <!-- form-group end.// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                            </div>
+                            <input class="form-control" placeholder="Create password" type="password" required>
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                            </div>
+                            <input class="form-control" placeholder="Repeat password" type="password"  required>
+                        </div> <!-- form-group// -->
+                            <button type="submit" class="btn btn-primary2"> Sign Up</button>                                                              
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Form End-->
+    <footer class="footer-bar ">
+        <div class="container">
+            <div class="row text-center pt-3">
+                <div class="col-sm-12 footer-bar">
+                    <p class="footer-text mx-auto">&copy; 2015-2021 Khwaja Fareed University of Engineering & Information Technology kfueit.edu.pk.</p>
+                </div>
+            </div>
+        </div>
+        <!--end container-->
+    </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
+  </body>
+</html>
